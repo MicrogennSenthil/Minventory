@@ -17,4 +17,4 @@
 Production deploy only on explicit "go production".
 
 ## Status
-Phase 0 in progress: NestJS skeleton, tenant RLS migration, JWT tenant guard, Item Category CRUD, isolation test. Type check passes. Isolation test not yet run against a live database. Responsive PWA shell not started.
+Phase 0 complete: NestJS skeleton, tenant RLS migration, JWT tenant guard, Item Category CRUD, isolation test (3 passing against Postgres 16), API smoke test, responsive PWA shell (apps/admin-web builds). Remaining: login screen, CI.
